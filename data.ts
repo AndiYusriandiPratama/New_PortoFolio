@@ -9,31 +9,34 @@ import {
 
 export const services: IService[] = [
   {
-    title: "Front-End",
-    about: "I Use NextJs, Tailwind, and State Management for make a Project",
     Icon: GrPersonalComputer,
+    title: "Front-End",
+    about:
+      "I Use <b>NextJs</b>, <b>Tailwind</b>, and <b>State Management</b> for make a Project.",
   },
   {
+    Icon: GrDatabase,
+
     title: "Back-End",
     about:
-      "I Use ExpressJs, Mysql, MongoDb, Firebase, Sequelize, Midtrans, and other popular framewors for handle databases",
-    Icon: GrDatabase,
+      "I Use <b>ExpressJs</b>, <b>Mysql</b>, <b>MongoDb</b>, <b>Firebase</b>, <b>Sequelize</b>, and <b>Midtrans</b>.",
   },
   {
+    Icon: GrSystem,
     title: "Machine Learning",
     about:
-      "I understand a little about machine learning, especially SVM and KNN methods",
-    Icon: GrSystem,
+      "I understand a little about machine learning, especially <b>SVM</b> and <b>K-NN</b>.",
   },
   {
-    title: "Designer",
-    about: "Skill Design with Photoshop, Corel Draw, and Figma",
     Icon: GrPaint,
+    title: "Designer",
+    about:
+      "Skill Design with <b>Photoshop</b>, <b>Corel Draw</b>, and <b>Figma</b>.",
   },
   {
+    Icon: GrBusinessService,
     title: "Other",
     about:
-      "I have worked several times with data processing such as Excel, Word, Python",
-    Icon: GrBusinessService,
+      "I work with data processing such as <b>Excel</b>, <b>Word</b>, and <b>Python</b>.",
   },
 ];
