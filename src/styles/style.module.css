@@ -1,0 +1,19 @@
+/* styles.module.css */
+
+/* CSS for scrollbar */
+.scrollContainer::-webkit-scrollbar {
+  width: 10px; /* width of the scrollbar */
+}
+
+.scrollContainer::-webkit-scrollbar-track {
+  background: transparent; /* color of the track */
+}
+
+.scrollContainer::-webkit-scrollbar-thumb {
+  background: #888; /* color of the scrollbar */
+  border-radius: 5px; /* roundness of the scrollbar thumb */
+}
+
+.scrollContainer {
+  overflow-y: scroll; /* ensure scrollbar always appears */
+}

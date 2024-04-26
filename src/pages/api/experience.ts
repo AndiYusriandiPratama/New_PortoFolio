@@ -1,11 +1,10 @@
 import { NextApiRequest, NextApiResponse } from "next";
 
-import { services } from "../../../data";
-import { experience } from "../../../data";
+import { experiences } from "../../../data";
 
 export default (req: NextApiRequest, res: NextApiResponse) => {
   // by default get response
 
-  console.log(services);
-  res.status(200).json({ services });
+  console.log(experiences);
+  res.status(200).json({ experiences });
 };

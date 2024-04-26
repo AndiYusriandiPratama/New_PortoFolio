@@ -10,3 +10,18 @@ body {
   ); /* Ubah warna sesuai keinginan Anda */
   font-family: "Poppins", sans-serif;
 }
+// Scroll Experince //
+/* CSS for scrollbar */
+::-webkit-scrollbar {
+  width: 10px; /* width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; /* color of the track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; /* color of the scrollbar */
+  border-radius: 5px; /* roundness of the scrollbar thumb */
+  display: block; /* make the scrollbar always visible */
+}

@@ -11,7 +11,7 @@ const Sidebar = () => {
         alt="photo profile"
         className="w-32 h-32 rounded-full mx-auto"
       />
-      <h3 className="my-4 text-3xl font-medium tracking-wider font-kaushan sm:text-2xl md:text-xl lg:text-lg xl:text-md 2xl:text-sm">
+      <h3 className="my-4 text-3xl font-medium tracking-wider font-kaushan sm:text-2xl md:text-xl lg:text-lg xl:text-md 2xl:text-sm ">
         Andi Yusriandi{" "}
         <span className="text-gradient-to-r from-pink-200 to-blue-300 text-blue-300">
           Pratama
@@ -26,7 +26,7 @@ const Sidebar = () => {
       </p>
       {/* Addres */}
       <div className="bg-opacity-50 font-kaushan">
-        <div className="flex items-center justify-center gap-2 text-">
+        <div className="flex items-center justify-center gap-2">
           <FaLocationDot />
           <span>Makassar - Parepare, Indonesia</span>
         </div>
