@@ -11,7 +11,7 @@ const Index = () => {
     "
     >
       <h4
-        className="font-medium text-justify bg-gradient-to-r from-pink-200 to-blue-300 items-center px-10 py-3 flex-grow rounded-lg"
+        className="font-medium text-justify bg-gradient-to-r from-pink-200 to-blue-300 dark:text-black items-center px-10 py-3 flex-grow rounded-lg"
         style={{ marginLeft: "-3rem", marginRight: "-3rem" }}
       >
         I am a bachelor's degree graduate majoring in <b>Physics</b>, Faculty of

@@ -2,8 +2,16 @@ import React from "react";
 import { FaGithub, FaInstagram, FaLinkedin, FaMedium } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 import { LuDownloadCloud } from "react-icons/lu";
+import { useTheme } from "next-themes";
+import { CiCloudSun, CiCloudMoon } from "react-icons/ci";
 
 const Sidebar = () => {
+  const { theme, setTheme } = useTheme();
+
+  const changeTheme = () => {
+    setTheme(theme === "light" ? "dark" : "light");
+  };
+
   return (
     <div>
       <img
@@ -11,21 +19,21 @@ const Sidebar = () => {
         alt="photo profile"
         className="w-32 h-32 rounded-full mx-auto"
       />
-      <h3 className="my-4 text-3xl font-medium tracking-wider font-kaushan sm:text-2xl md:text-xl lg:text-lg xl:text-md 2xl:text-sm ">
+      <h3 className="my-4 text-3xl font-medium tracking-wider  dark:text-white font-kaushan sm:text-2xl md:text-xl lg:text-lg xl:text-md 2xl:text-sm ">
         Andi Yusriandi{" "}
         <span className="text-gradient-to-r from-pink-200 to-blue-300 text-blue-300">
           Pratama
         </span>
       </h3>
 
-      <p className="px-2 py-1 my-3 bg-gray-200 rounded-full">
+      <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:text-blue-300">
         Fullstack Web Development
       </p>
-      <p className="px-2 py-1 my-3 bg-gray-200 rounded-full flex items-center justify-center gap-2">
+      <p className="px-2 py-1 my-3 bg-gray-200 rounded-full flex items-center justify-center gap-2  dark:text-blue-300">
         <LuDownloadCloud /> Download CV
       </p>
       {/* Addres */}
-      <div className="bg-opacity-50 font-kaushan">
+      <div className="bg-opacity-50 font-kaushan text-black dark:text-white">
         <div className="flex items-center justify-center gap-2">
           <FaLocationDot />
           <span>Makassar - Parepare, Indonesia</span>
@@ -50,6 +58,19 @@ const Sidebar = () => {
 
         <a href="https://www.instagram.com/andiyusriandiprtm/">
           <FaInstagram size={24} />
+        </a>
+        <a>
+          <div onClick={changeTheme}>
+            {theme === "light" ? (
+              <div className="flex items-center justify-center">
+                <CiCloudSun size={24} className="mr-1" />
+              </div>
+            ) : (
+              <div className="flex items-center justify-center">
+                <CiCloudMoon size={24} className="mr-1 " />
+              </div>
+            )}
+          </div>
         </a>
       </div>
 

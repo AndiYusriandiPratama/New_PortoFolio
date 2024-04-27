@@ -16,7 +16,7 @@ export default class MyDocument extends Document {
             rel="stylesheet"
           ></link>
         </Head>
-        <body>
+        <body className="bg-gradient-to-b from-pink-200 via-white to-blue-200 dark:from-dark-500 bg-dark-700 h-screen">
           <Main />
           <NextScript />
         </body>

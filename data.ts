@@ -1,4 +1,4 @@
-import { IExperience, IService, ISkill } from "./type";
+import { IExperience, IProject, IService, ISkill } from "./type";
 import {
   GrPersonalComputer,
   GrPaint,
@@ -31,6 +31,9 @@ import MySqlLogo from "./public/logo_skill/mysql.svg";
 import TailwindLogo from "./public/logo_skill/tailwind.svg";
 import BootstrapLogo from "./public/logo_skill/bootstrap.svg";
 import PythonLogo from "./public/logo_skill/python.svg";
+import BakulanImage from "./public/Project_image/Bakulan.png";
+import RenafinImage from "./public/Project_image/Renafin.png";
+import EventopiaImage from "./public/Project_image/Eventopia.png";
 
 export const services: IService[] = [
   {
@@ -147,5 +150,55 @@ export const experiences: IExperience[] = [
     company: "Codepolitan",
     position: "Kelas Fullstack",
     year: "Oct 2022 - Present",
+  },
+];
+
+export const projects: IProject[] = [
+  {
+    name: "Bakulan App",
+    description:
+      "Bakulan App: Modern cashier solution for efficient and seamless.",
+    tech: [
+      "NextJS",
+      "TailwindCSS",
+      "ExpressJS",
+      "TypeScript",
+      "Mysql/Sequelize",
+    ],
+    image_path: BakulanImage,
+    frond_end_url: "https://github.com/DANG-Coorporation/bakulan-web",
+    back_end_url: "https://github.com/DANG-Coorporation/bakulan-api",
+  },
+  {
+    name: "Eventopi",
+    description: "Eventopia: Your all-in-one web event management solution.",
+    tech: [
+      "NextJS",
+      "TailwindCSS",
+      "ExpressJS",
+      "TypeScript",
+      "Mysql/Sequelize",
+    ],
+    image_path: EventopiaImage,
+    frond_end_url: "https://github.com/DANG-Coorporation/eventopia-web",
+    back_end_url: "https://github.com/DANG-Coorporation/eventopia-api",
+  },
+  {
+    name: "Renafin App",
+    description:
+      "Renafin App: Booking App with Oauth2 and Midrans for transaction",
+    tech: [
+      "NextJS",
+      "TailwindCSS",
+      "ExpressJS",
+      "Midtrans",
+      "Oauth2",
+      "Mysql/Sequelize",
+    ],
+    image_path: RenafinImage,
+    frond_end_url:
+      "https://github.com/AndiYusriandiPratama/JCWDOL01105/tree/main/packages/client",
+    back_end_url:
+      "https://github.com/AndiYusriandiPratama/JCWDOL01105/tree/main/packages/server",
   },
 ];

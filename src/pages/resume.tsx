@@ -7,7 +7,7 @@ import SkillCard from "@/components/SkillCard";
 const Resume = () => {
   return (
     <div>
-      <div className="container mx-auto px-4 py-2 bg-white rounded-lg shadow-sm">
+      <div className="container mx-auto px-4 py-2 bg-white rounded-lg shadow-sm dark:bg-black">
         {/* educati/experience */}
         <h1 className="text-3xl font-bold mb-4">Education & Experience</h1>
         <div className={`${styles.scrollContainer} max-h-96 overflow-y-scroll`}>
@@ -21,7 +21,7 @@ const Resume = () => {
         </div>
       </div>
       {/* skills */}
-      <div className="my-5 bg-white rounded-lg shadow-lg mt-5">
+      <div className="my-5 bg-white rounded-lg shadow-lg mt-5 dark:bg-black">
         <h1 className="text-3xl font-bold mx-3 py-2">Skills</h1>
         <div className="flex justify-center flex-wrap gap-4 mt-4">
           {skills.map((skill, index) => (

@@ -5,6 +5,7 @@ module.exports = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  darkMode: "class",
   theme: {
     extend: {
       backgroundImage: {
@@ -14,6 +15,15 @@ module.exports = {
       },
       fontFamily: {
         kaushan: ["Kaushan Script", "cursive"],
+      },
+      colors: {
+        dark: {
+          DEFAULT: "010101",
+          100: "#0a0b1e",
+          200: "#16181d",
+          500: "#0f1115",
+          700: "#202125",
+        },
       },
     },
   },

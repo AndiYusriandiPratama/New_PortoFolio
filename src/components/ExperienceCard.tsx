@@ -12,7 +12,7 @@ const ExperienceCard: FunctionComponent<{ experience: IExperience }> = ({
           <Image src={Logo} alt={company} width={48} height={48} />
         </div>
         <div>
-          <h2 className="text-base font-semibold">{company}</h2>
+          <h2 className="text-base font-semibold dark:text-black">{company}</h2>
           <p className="text-sm text-gray-600">{position}</p>
         </div>
       </div>

@@ -17,3 +17,12 @@ export interface IExperience {
   position: string;
   year: string;
 }
+
+export interface IProject {
+  name: string;
+  description: string;
+  tech: string[];
+  image_path: string | StaticImageData;
+  frond_end_url: string;
+  back_end_url: string;
+}
