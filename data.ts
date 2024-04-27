@@ -6,7 +6,7 @@ import { MdDeveloperMode } from "react-icons/md";
 import UpworkLogo from "./public/logo_upwork.webp";
 import PurwadhikaLogo from "./public/logo_purwadhika.webp";
 import DicodingLogo from "./public/logo_dicoding.webp";
-import CodepolitanLogo from "./public/Codepolitan.jpeg";
+import CodeLogo from "./public/logo_code.jpeg";
 import ProjectLogo from "./public/project.webp";
 import UnhasLogo from "./public/logo_unhas.png";
 import HtmlLogo from "./public/logo_skill/html.svg";
@@ -112,7 +112,7 @@ export const experiences: IExperience[] = [
     year: "July 2023 - Jan 2024",
   },
   {
-    Logo: CodepolitanLogo,
+    Logo: CodeLogo,
     company: "Codepolitan",
     position: "Kelas Fullstack",
     year: "Oct 2022 - Present",
