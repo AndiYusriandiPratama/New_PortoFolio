@@ -6,15 +6,6 @@ import {
   GrSystem,
   GrBusinessService,
 } from "react-icons/gr";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faReact,
-  faJs,
-  faPython,
-  faNode,
-  faNodeJs,
-} from "@fortawesome/free-brands-svg-icons";
-import { BsCircleFill } from "react-icons/bs";
 import UpworkLogo from "./public/logo_upwork.webp";
 import PurwadhikaLogo from "./public/logo_purwadhika.webp";
 import DicodingLogo from "./public/logo_dicoding.webp";
