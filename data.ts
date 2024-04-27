@@ -170,7 +170,7 @@ export const projects: IProject[] = [
     back_end_url: "https://github.com/DANG-Coorporation/bakulan-api",
   },
   {
-    name: "Eventopi",
+    name: "Eventopia",
     description: "Eventopia: Your all-in-one web event management solution.",
     tech: [
       "NextJS",
