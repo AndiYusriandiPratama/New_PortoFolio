@@ -1,11 +1,4 @@
 import { IExperience, IProject, IService, ISkill } from "./type";
-// import {
-//   GrPersonalComputer,
-//   GrPaint,
-//   GrDatabase,
-//   GrSystem,
-//   GrBusinessService,
-// } from "react-icons/gr";
 import { RiComputerLine } from "react-icons/ri";
 import { FaServer } from "react-icons/fa";
 import { AiOutlineAntDesign, AiOutlineApi } from "react-icons/ai";
