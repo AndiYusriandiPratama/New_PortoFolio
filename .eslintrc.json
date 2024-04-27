@@ -1,11 +1,3 @@
 {
-  "extends": [
-    "next/core-web-vitals",
-    "eslint:recommended",
-    "plugin:react/recommended",
-    "plugin:react-hooks/recommended"
-  ],
-  "rules": {
-    // Aturan tambahan disini
-  }
+  "extends": "next/core-web-vitals"
 }
