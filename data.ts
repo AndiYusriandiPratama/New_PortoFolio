@@ -18,6 +18,8 @@ import { BsCircleFill } from "react-icons/bs";
 import UpworkLogo from "./public/logo_upwork.webp";
 import PurwadhikaLogo from "./public/logo_purwadhika.webp";
 import DicodingLogo from "./public/logo_dicoding.webp";
+import CodepolitanLogo from "./public/Codepolitan.webp";
+import ProjectLogo from "./public/project.webp";
 import UnhasLogo from "./public/logo_unhas.png";
 import HtmlLogo from "./public/logo_skill/html.svg";
 import CssLogo from "./public/logo_skill/css.svg";
@@ -34,6 +36,7 @@ import PythonLogo from "./public/logo_skill/python.svg";
 import BakulanImage from "./public/Project_image/Bakulan.png";
 import RenafinImage from "./public/Project_image/Renafin.png";
 import EventopiaImage from "./public/Project_image/Eventopia.png";
+import DandelionImage from "./public/Project_image/Dandelion.png";
 
 export const services: IService[] = [
   {
@@ -122,7 +125,7 @@ export const experiences: IExperience[] = [
     year: "July 2023 - Jan 2024",
   },
   {
-    Logo: UpworkLogo,
+    Logo: CodepolitanLogo,
     company: "Codepolitan",
     position: "Kelas Fullstack",
     year: "Oct 2022 - Present",
@@ -142,14 +145,14 @@ export const experiences: IExperience[] = [
   {
     Logo: UpworkLogo,
     company: "Upword",
-    position: "Freelance Fullstack Web Developer",
+    position: "Web Developer & Data Entry/Analis",
     year: "July 2023 - Present",
   },
   {
-    Logo: UpworkLogo,
-    company: "Codepolitan",
-    position: "Kelas Fullstack",
-    year: "Oct 2022 - Present",
+    Logo: ProjectLogo,
+    company: "Project.co.id",
+    position: "Web Developer & Data Entry/Analis",
+    year: "Oct 2023 - Present",
   },
 ];
 
@@ -200,5 +203,13 @@ export const projects: IProject[] = [
       "https://github.com/AndiYusriandiPratama/JCWDOL01105/tree/main/packages/client",
     back_end_url:
       "https://github.com/AndiYusriandiPratama/JCWDOL01105/tree/main/packages/server",
+  },
+  {
+    name: "Dandelion Shop",
+    description: "online musical instrument shop",
+    tech: ["ReactJS", "boostrap", "ExpressJS"],
+    image_path: DandelionImage,
+    frond_end_url: "https://github.com/AndiYusriandiPratama/client-dandelion",
+    back_end_url: "https://github.com/AndiYusriandiPratama/server-dandelion",
   },
 ];
