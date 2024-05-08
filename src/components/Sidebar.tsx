@@ -4,6 +4,7 @@ import { FaLocationDot } from "react-icons/fa6";
 import { LuDownloadCloud } from "react-icons/lu";
 import { useTheme } from "next-themes";
 import { CiCloudSun, CiCloudMoon } from "react-icons/ci";
+import fotoProfile from "./../../public/Project_image/profile.png";
 
 const Sidebar = () => {
   const { theme, setTheme } = useTheme();
@@ -15,7 +16,7 @@ const Sidebar = () => {
   return (
     <div>
       <img
-        src="https://i.pinimg.com/564x/6d/3e/b8/6d3eb8147fdcdd571952e667b6690801.jpg"
+        src={fotoProfile.src}
         alt="photo profile"
         className="w-32 h-32 rounded-full mx-auto"
       />
